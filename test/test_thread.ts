@@ -1,5 +1,5 @@
 import { MatchError, TestRunner, TestSet, TestOutcome } from "alsatian";
-import * as JSON from "circular-json";
+import * as JSON from "flatted";
 
 module.exports = function(input, done) {
     const testSet = TestSet.create();
